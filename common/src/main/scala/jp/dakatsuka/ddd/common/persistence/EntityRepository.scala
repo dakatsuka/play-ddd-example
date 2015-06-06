@@ -1,4 +1,4 @@
-package jp.dakatsuka.ddd.domain.persistence
+package jp.dakatsuka.ddd.common.persistence
 
 import scala.concurrent.Future
 

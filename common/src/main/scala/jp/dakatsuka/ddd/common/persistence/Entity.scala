@@ -1,4 +1,4 @@
-package jp.dakatsuka.ddd.domain.persistence
+package jp.dakatsuka.ddd.common.persistence
 
 trait Entity[ID <: Identifier[_]] {
   val id: ID

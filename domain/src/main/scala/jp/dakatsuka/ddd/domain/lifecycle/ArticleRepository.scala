@@ -1,7 +1,7 @@
 package jp.dakatsuka.ddd.domain.lifecycle
 
+import jp.dakatsuka.ddd.common.persistence.{IOContext, EntityRepository}
 import jp.dakatsuka.ddd.domain.model.{Article, ArticleId}
-import jp.dakatsuka.ddd.domain.persistence.{IOContext, EntityRepository}
 
 import scala.concurrent.Future
 

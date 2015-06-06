@@ -10,8 +10,12 @@ lazy val commonSettings = Seq(
   )
 )
 
+lazy val common = project.in(file("common"))
+  .settings(commonSettings: _*)
+
 lazy val domain = project.in(file("domain"))
   .settings(commonSettings: _*)
+  .dependsOn(common)
 
 lazy val infrastructure = project.in(file("infrastructure"))
   .settings(commonSettings: _*)

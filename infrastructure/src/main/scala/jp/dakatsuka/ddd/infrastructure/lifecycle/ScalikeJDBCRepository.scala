@@ -1,6 +1,6 @@
 package jp.dakatsuka.ddd.infrastructure.lifecycle
 
-import jp.dakatsuka.ddd.domain.persistence.{Entity, IOContext, IOContextTransparently, Identifier}
+import jp.dakatsuka.ddd.common.persistence.{IOContextTransparently, IOContext, Identifier, Entity}
 import scalikejdbc._, async._, FutureImplicits._
 import scala.concurrent.Future
 

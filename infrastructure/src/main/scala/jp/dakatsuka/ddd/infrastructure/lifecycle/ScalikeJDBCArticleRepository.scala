@@ -1,8 +1,8 @@
 package jp.dakatsuka.ddd.infrastructure.lifecycle
 
+import jp.dakatsuka.ddd.common.persistence.IOContext
 import jp.dakatsuka.ddd.domain.lifecycle.ArticleRepository
 import jp.dakatsuka.ddd.domain.model.{Article, ArticleId}
-import jp.dakatsuka.ddd.domain.persistence.IOContext
 import scalikejdbc._, async._, FutureImplicits._
 
 import scala.concurrent.Future
