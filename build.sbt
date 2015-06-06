@@ -4,8 +4,9 @@ lazy val commonSettings = Seq(
   organization := "jp.dakatsuka.ddd",
   scalaVersion := "2.11.6",
   libraryDependencies ++= Seq(
-    "org.specs2"  %% "specs2"       % "2.3.12" % "test",
-    "org.mockito" %  "mockito-core" % "1.9.5"  % "test"
+    "org.specs2" %% "specs2-core"  % "3.6.1" % "provided",
+    "org.specs2" %% "specs2-mock"  % "3.6.1" % "provided",
+    "org.specs2" %% "specs2-junit" % "3.6.1" % "provided"
   )
 )
 
